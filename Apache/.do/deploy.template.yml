@@ -1,0 +1,7 @@
+spec:
+ name: Apache-page
+ services:
+ - name: webpage
+   git:
+     branch: main
+     repo_clone_url: https://github.com/rs-digiO/APPs.git
