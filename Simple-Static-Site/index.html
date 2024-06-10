@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>World Time</title>
+</head>
+<body>
+    <h1>World Time</h1>
+    <ul>
+        <li>India: <?php echo date('Y-m-d H:i:s', time() + (5.5 * 3600)); ?> (IST)</li>
+        <li>US: <?php echo date('Y-m-d H:i:s', time() - (4 * 3600)); ?> (EDT)</li>
+        <li>Britain: <?php echo date('Y-m-d H:i:s', time() + (1 * 3600)); ?> (BST)</li>
+    </ul>
+</body>
+</html>
